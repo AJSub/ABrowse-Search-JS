@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABrowse Store</title>
+    <link rel="shortcut icon" href="favicon.png" type="png/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <style>
+.active{
+    display: inline-block;
+    user-select: none;
+    margin: 5px;
+    padding: 4px 8px;
+    border-radius: 5px;
+    background-color: #007bff;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 1);
+    transition: 0.2s;
+}
+.active:hover{
+    display: inline-block;
+    user-select: none;
+    margin: 5px;
+    padding: 4px 8px;
+    border-radius: 5px;
+    background-color: #007bff;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.5);
+    transition: 0.2s;
+}
+.notshown{
+    display: none;
+}
+.shown{
+    display: inline-block;
+}
+    </style>
+    <script src="https://kit.fontawesome.com/bc0aa4a446.js" crossorigin="anonymous"></script>
+</head>
+<body link="#007bff" alink="#007bff" vlink="#007bff">
+    <div class="error_msg">
+        <center>
+        <div class="imgp"><br /><br /><img src="reserved.png" alt="png"><font>Browse</font><i class="fas fa-search"></i><br /><p>ABrowse Bots <i class="fa-solid fa-robot"></i></p><br /><p>ABrowse is not compatible in your screen size</p><br /><font>Screen size must be 340px to 301px higher<br />limit 339px to 300px<br /></font></div>
+        </center>
+    </div>
+<div class="if_error_body">
+<center>
+    <br />
+    <br /><br />
+    <p>Categories</p>
+    <div class="app-categories tag-all"><a>All <i class="fas fa-border-all"></i></div>
+        <div class="app-categories g"><a>Games <i class="fas fa-gamepad"></i></a></div>
+        <div class="app-categories b"><a>Browser <i class="fas fa-window-restore"></i></a></div>
+        <div class="app-categories s"><a>Social Media <i class="fas fa-heart"></i></a></div>
+        <div class="app-categories d"><a>Educational <i class="fas fa-book"></i></a></div>
+        <div class="app-categories e"><a>Entertainment <i class="fas fa-photo-video"></i></a></div>
+        <div class="app-categories u"><a>Unknown <i class="fas fa-ban"></i></a></div>
+    <br /><br />
+
+    <p class="apps-category-name"></p>
+    <font class="store-warning-font"></font>
+    <br /><br />
+   
+<div class="games notshown">
+<br /><br />
+<br /><br />
+</div>
+
+<div class="browser notshown">
+<br /><br />
+<br /><br /> 
+</div>
+
+<div class="social notshown">
+<br /><br />
+<br /><br />
+</div>
+
+<div class="educational notshown">
+<br /><br />
+<br /><br />
+</div>
+
+<div class="entertainment notshown">
+<br /><br />
+<br /><br />
+</div>
+
+<div class="unknown notshown">
+<br /><br />
+<br /><br />
+</div>
+</center>
+<br /><br /><br /><br />
+<script src="./js/store.js"></script>
+</div>
+</body>
+</html>

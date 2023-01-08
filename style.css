@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.5s ease;
+}
+body{
+  background: white;
+  transition: all 0.5s ease;
+
+  margin: 0px;
+  display: flex;
+  padding: 0px;
+
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  min-height: 100vh;
+}
+.container{
+
+  max-width: 690px;
+  width: 100%;
+  padding: 20px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.5);
+  transition: all 0.5s ease;
+}
+.wrapper{
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+.wrapper .text-input{
+  border-bottom: 1px solid #007bff;
+  transition: all 0.5s ease;
+}
+.wrapper .text-input:hover{
+  border-bottom: 4px solid #007bff;
+  transition: all 0.5s ease;
+}
+.text-input .to-text{
+  border-radius: 0px;
+  transition: all 0.5s ease;
+}
+.text-input textarea{
+  height: 250px;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  background: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+.text-input textarea::placeholder{
+  color: #007bff;
+  transition: all 0.5s ease;
+}
+.controls, li, .icons, .icons i{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.5s ease;
+}
+.controls{
+  list-style: none;
+  padding: 12px 15px;
+  transition: all 0.5s ease;
+}
+.controls .row .icons{
+  width: 38%;
+  transition: all 0.5s ease;
+}
+.controls .row .icons i{
+  width: 50px;
+  color: #007bff;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  transition: all 0.5s ease;
+}
+.controls .row.from .icons{
+  padding-right: 15px;
+  transition: all 0.5s ease;
+}
+.controls .row.to .icons{
+  padding-left: 15px;
+  transition: all 0.5s ease;
+}
+.controls .row select{
+  color: #007bff;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background: none;
+  padding-left: 5px;
+  transition: all 0.5s ease;
+}
+.text-input textarea::-webkit-scrollbar{
+  width: 4px;
+  transition: all 0.5s ease;
+}
+.controls .row select::-webkit-scrollbar{
+  width: 8px;
+  transition: all 0.5s ease;
+}
+.text-input textarea::-webkit-scrollbar-track,
+.controls .row select::-webkit-scrollbar-track{
+  background: #007bff;
+  color: #007bff;
+  transition: all 0.5s ease;
+}
+.text-input textarea::-webkit-scrollbar-thumb{
+  background: #007bff;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+.controls .row select::-webkit-scrollbar-thumb{
+  background: #007bff;
+  border-radius: 8px;
+  border-right: 2px solid #ffffff;
+  border: none;
+  outline: none;
+  transition: all 0.5s ease;
+}
+select{
+  border: none;
+  outline: none;
+}
+.controls .exchange{
+  color: #007bff;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.5s ease;
+}
+.controls i:active{
+  transform: scale(0.9);
+  transition: all 0.5s ease;
+}
+.container button{
+  width: 50%;
+  padding: 14px;
+  outline: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  float: right;
+  margin-top: 10px;
+  font-size: 18px;
+  border-radius: 20px;
+  background: #007bff;
+  transition: all 0.5s ease;
+}
+
+@media (max-width: 768px){
+  .container{
+    padding: 20px;
+    transition: all 0.5s ease;
+  }
+  .wrapper .text-input{
+    flex-direction: column;
+    transition: all 0.5s ease;
+  }
+  .text-input .to-text{
+    border-left: 0px;
+    border-top: 1px solid #007bff;
+    transition: all 0.5s ease;
+  }
+  .text-input .to-text:hover{
+    border-left: 0px;
+    border-top: 4px solid #007bff;
+    transition: all 0.5s ease;
+  }
+  .text-input textarea{
+    height: 200px;
+    transition: all 0.5s ease;
+  }
+  .controls .row .icons{
+    display: flex;
+    transition: all 0.5s ease;
+  }
+  .container button{
+    padding: 12px;
+    font-size: 16px;
+    transition: all 0.5s ease;
+  }
+  .controls .row select{
+    font-size: 16px;
+    transition: all 0.5s ease;
+  }
+  .controls .exchange{
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }
+  .container{
+    width: 768px;
+  }
+}
+@media (max-width: 660px){
+  .container{
+    width: 660px;
+  }
+  .container{
+    padding: 20px;
+    transition: all 0.5s ease;
+  }
+  .wrapper .text-input{
+    flex-direction: column;
+    transition: all 0.5s ease;
+  }
+  .text-input .to-text{
+    border-left: 0px;
+    border-top: 1px solid #007bff;
+    transition: all 0.5s ease;
+  }
+  .text-input .to-text:hover{
+    border-left: 0px;
+    border-top: 4px solid #007bff;
+    transition: all 0.5s ease;
+  }
+  .text-input textarea{
+    height: 200px;
+    transition: all 0.5s ease;
+  }
+  .controls .row .icons{
+    display: flex;
+    transition: all 0.5s ease;
+  }
+  .container button{
+    padding: 12px;
+    font-size: 16px;
+    transition: all 0.5s ease;
+  }
+  .controls .row select{
+    font-size: 16px;
+    transition: all 0.5s ease;
+  }
+  .controls .exchange{
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }
+  .fa-copy{
+    display: none;
+  }
+}
+@media (max-width: 425px){
+  .container{
+    width: 425px;
+  }
+  .container{
+    padding: 20px;
+    transition: all 0.5s ease;
+  }
+  .wrapper .text-input{
+    flex-direction: column;
+    transition: all 0.5s ease;
+  }
+  .text-input .to-text{
+    border-left: 0px;
+    border-top: 1px solid #007bff;
+    transition: all 0.5s ease;
+  }
+  .text-input .to-text:hover{
+    border-left: 0px;
+    border-top: 4px solid #007bff;
+    transition: all 0.5s ease;
+  }
+  .text-input textarea{
+    height: 200px;
+    transition: all 0.5s ease;
+  }
+  .controls .row .icons{
+    display: flex;
+    transition: all 0.5s ease;
+  }
+  .container button{
+    padding: 12px;
+    font-size: 16px;
+    transition: all 0.5s ease;
+  }
+  .controls .row select{
+    font-size: 16px;
+    transition: all 0.5s ease;
+  }
+  .controls .exchange{
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }
+  i.fa-copy{
+    display: none;
+  }
+}
+@media (max-width: 375px){
+  .container{
+    width: 375px;
+  }
+  .container{
+    padding: 20px;
+    transition: all 0.5s ease;
+  }
+  .wrapper .text-input{
+    flex-direction: column;
+    transition: all 0.5s ease;
+  }
+  .text-input .to-text{
+    border-left: 0px;
+    border-top: 1px solid #007bff;
+    transition: all 0.5s ease;
+  }
+  .text-input .to-text:hover{
+    border-left: 0px;
+    border-top: 4px solid #007bff;
+    transition: all 0.5s ease;
+  }
+  .text-input textarea{
+    height: 200px;
+    transition: all 0.5s ease;
+  }
+  .controls .row .icons{
+    display: flex;
+    transition: all 0.5s ease;
+  }
+  .container button{
+    padding: 12px;
+    font-size: 16px;
+    transition: all 0.5s ease;
+  }
+  .controls .row select{
+    font-size: 16px;
+    transition: all 0.5s ease;
+  }
+  .controls .exchange{
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }
+  i.fa-copy{
+    display: none;
+  }
+}

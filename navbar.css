@@ -1,0 +1,140 @@
+/* ABrowse Design */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.5s ease;
+}
+nav{
+    background: white;
+    height: 80px;
+    width: 100%;
+    border-bottom: 2px solid #0082e6;
+}
+label.logo{
+    color: #0082e6;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 30px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+  color: black;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 0px;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+  font-weight: 100;
+  border-bottom: 2px solid transparent;
+}
+a.active,a:hover{
+  background: none;
+  color: #0082e6;
+  border-bottom: 2px solid #0082e6;
+  font-weight: 500;
+  transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #0082e6;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    transition: all 0.5s ease;
+}
+.checkbtn:hover{
+    font-size: 30px;
+    color: #007bff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+#check{
+    display: none;
+}
+@media (max-width: 1340px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 30px;
+    }
+    nav ul li a{
+      font-size: 16px;
+      transition: all 0.5s ease;
+    }
+}
+@media (max-width: 1340px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: white;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+      font-weight: 100;
+      transition: all 0.5s ease;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #007bff;
+      border-bottom: 2px solid #007bff;
+      transition: all 0.5s ease;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+}
+.c_ABrowseNotes p{
+  font-size: 20px;
+  font-weight: 500;
+  padding-right: 20px;
+}
+a.active_sub{
+  background: none;
+  color: black;
+  border-bottom: 2px solid #ff0000;
+  font-weight: 500;
+  transition: .2s;
+}
+a.active_sub:hover{
+  background: none;
+  color: #ff0000;
+  border-bottom: 2px solid #ff0000;
+  font-weight: 500;
+  transition: .2s;
+}

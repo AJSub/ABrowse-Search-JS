@@ -1,0 +1,461 @@
+/* ABrowse Design Dark */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    color: white;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #1b1b1b;
+    margin: 0px;
+    padding: 0px;
+    transition: all 0.5s ease;
+}
+.box .searchcontainer form input{
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    background-color: #1b1b1b;
+    box-shadow: 1px 2px 8px rgba(0, 123, 255, 0.5);
+    border-radius: 100px;
+    font-size: 20px;
+    padding: 18px 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin: 0px;
+    padding-right: 20px;
+    padding-left: 28px;
+
+    width: 59%;
+}
+button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 100px;
+    text-align: center;
+}
+button i{
+    font-size: 20px;
+    text-align: center;
+    color: #007bff;
+    transition: all 0.5s ease;
+}
+button i:hover{
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: #007bff;
+}
+p{
+    font-size: 28px;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+}
+font{
+    margin: 5px;
+    font-size: 20px;
+    color: white;
+    user-select: none;
+}
+button{
+    font-size: 20px;
+    width: auto;
+    height: auto;
+}
+a button{
+    color: #007bff;
+    cursor: pointer;
+    margin: 5px;
+    width: auto;
+    height: auto;
+    user-select: none;
+}
+img{
+    max-width: 200px;
+    width: 200px;
+    border-radius: 20px;
+    min-width: none;
+    user-select: none;
+}
+nav.nav{
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.5);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid #007bff;
+    background-color: #1b1b1b;
+    margin: 0px;
+    padding: 8px 0px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    transition: 0.2s;
+}
+nav.nav:hover{
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 4px solid #007bff;
+    background-color: #1b1b1b;
+    margin: 0px;
+    padding: 8px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    transition: 0.2s;
+}
+nav.nav font{
+    text-align: left;
+    color: white;
+}
+.right_m1{
+    float: right;
+    margin: 0px 30px;
+}
+
+.search i{
+    transform: rotate(0deg);
+    font-size: 20px;
+    transition: 0.5s;
+}
+.search i:hover{
+    transform: rotate(360deg);
+    font-size: 20px;
+    transition: 0.5s;
+}
+br{
+    user-select: none;
+}
+.goback i{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 5px;
+    transition: 0.5s;
+}
+.goback{
+    width: auto;
+    height: auto;
+}
+.goback i:hover{
+    color: #007bff;
+    font-size: 20px;
+    margin: 5px;
+    transform: rotate(-360deg);
+    transition: 1s;
+}
+.goback-h i{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 5px;
+    transition: 0.5s;
+}
+.goback-h{
+    width: auto;
+    height: auto;
+}
+.goback-h i:hover{
+    color: #007bff;
+    font-size: 20px;
+    margin: 5px;
+    transform: rotate(360deg);
+    transition: 1s;
+}
+.shortcuts a{
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.5);
+    background-color: transparent;
+    padding: 4px 5px;
+    color: #ffffff;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+.shortcuts a:hover{
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 1);
+    padding: 10px;
+    color: black;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    transition: 0.2s;
+}
+::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #007bff;
+    border-radius: 50px;
+}
+.topm-2l font{
+    color: #007bff;
+    transition: 0.2s;
+}
+.topm-2l a{
+    color: #ffffff;
+    transition: 0.2s;
+}
+.topm-2l a:hover{
+    color: #007bff;
+    transition: 0.2s;
+}
+
+.t{
+    background: #ffffff;
+    width: 150px;
+    padding: 8px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+@media (max-width: 615px){
+    .box{
+        background-color: transparent;
+        border-radius: 100px;
+        width: 514.5px;
+        height: 58px;
+        padding-left: 5px;
+        border: none;
+        outline: none;
+        transition: 0.5s;
+    }
+    .box:hover{
+        background-color: transparent;
+        border-radius: 100px;
+        width: 514.5px;
+        height: 58px;
+        transition: 0.5s;
+        border: none;
+        outline: none;
+    }
+    .box form input{
+        width: 400px;
+        height: 49px;
+        border-radius: 50px;
+        border: none;
+        outline: none;
+        font: 'Poppins';
+        text-align: left;
+        font-size: 1.3rem;
+        padding: 0px 25px;
+        background-color: transparent;
+        transition: 0.5s;
+    }
+    .box form input:hover{
+        width: 400px;
+        background-color: transparent;
+        transition: 0.5s;
+    }
+}
+@media (max-width: 515px){
+    .box{
+        background-color: transparent;
+        border-radius: 100px;
+        width: 414.5px;
+        height: 58px;
+        padding-left: 5px;
+        border: none;
+        outline: none;
+        transition: 0.5s;
+    }
+    .box:hover{
+        background-color: transparent;
+        border-radius: 100px;
+        width: 414.5px;
+        height: 58px;
+        transition: 0.5s;
+        border: none;
+        outline: none;
+    }
+    .box form input{
+        width: 300px;
+        height: 49px;
+        border-radius: 50px;
+        border: none;
+        outline: none;
+        font: 'Poppins';
+        text-align: left;
+        font-size: 1.3rem;
+        padding: 0px 25px;
+        background-color: transparent;
+        transition: 0.5s;
+    }
+    .box form input:hover{
+        width: 300px;
+        background-color: transparent;
+        transition: 0.5s;
+    }
+}
+@media (max-width: 415px){
+    .box{
+        background-color: transparent;
+        border-radius: 100px;
+        width: 314.5px;
+        height: 58px;
+        padding-left: 5px;
+        border: none;
+        outline: none;
+        transition: 0.5s;
+    }
+    .box:hover{
+        background-color: transparent;
+        border-radius: 100px;
+        width: 314.5px;
+        height: 58px;
+        transition: 0.5s;
+        border: none;
+        outline: none;
+    }
+    .box form input{
+        width: 200px;
+        height: 49px;
+        border-radius: 50px;
+        border: none;
+        outline: none;
+        font: 'Poppins';
+        text-align: left;
+        font-size: 1.3rem;
+        padding: 0px 25px;
+        background-color: transparent;
+        transition: 0.5s;
+    }
+    .box form input:hover{
+        width: 200px;
+        background-color: transparent;
+        transition: 0.5s;
+    }
+}
+@media (max-width: 315px){
+    .box{
+        background-color: transparent;
+        border-radius: 100px;
+        width: 214.5px;
+        height: 58px;
+        padding-left: 5px;
+        border: none;
+        outline: none;
+        transition: 0.5s;
+    }
+    .box:hover{
+        background-color: transparent;
+        border-radius: 100px;
+        width: 214.5px;
+        height: 58px;
+        transition: 0.5s;
+        border: none;
+        outline: none;
+    }
+    .box form input{
+        width: 100px;
+        height: 49px;
+        border-radius: 50px;
+        border: none;
+        outline: none;
+        font: 'Poppins';
+        text-align: left;
+        font-size: 1.3rem;
+        padding: 0px 25px;
+        background-color: transparent;
+        transition: 0.5s;
+    }
+    .box form input:hover{
+        width: 100px;
+        background-color: transparent;
+        transition: 0.5s;
+    }
+}
+@media (max-width: 215px){
+    .box{
+        background-color: transparent;
+        border-radius: 100px;
+        width: 114.5px;
+        height: 58px;
+        padding-left: 5px;
+        border: none;
+        outline: none;
+        transition: 0.5s;
+    }
+    .box:hover{
+        background-color: transparent;
+        border-radius: 100px;
+        width: 114.5px;
+        height: 58px;
+        transition: 0.5s;
+        border: none;
+        outline: none;
+    }
+    .box form input{
+        width: 50px;
+        height: 49px;
+        border-radius: 50px;
+        border: none;
+        outline: none;
+        font: 'Poppins';
+        text-align: left;
+        font-size: 1.3rem;
+        padding: 0px 25px;
+        background-color: transparent;
+        transition: 0.5s;
+    }
+    .box form input:hover{
+        width: 50px;
+        background-color: transparent;
+        transition: 0.5s;
+    }
+}
+.abrowsequiz a{
+    margin: 0px;
+    text-decoration: none;
+    padding: 0px;
+    color: #007bff;
+    transition: 0.5s;
+}
+.abrowsequiz p{
+    margin: 0px;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #007bff;
+    user-select: none;
+    padding: 0px;
+    transition: 0.5s;
+}
+.abrowsequiz font{
+    margin: 0px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    user-select: none;
+    padding: 0px;
+    transition: 0.5s;
+}
+.imgp{
+    user-select: none;
+}
+.imgp a img{
+    width: 50px;
+    border-radius: 0px;
+}
+.imgp img{
+    width: 50px;
+    border-radius: 0px;
+}
+.imgp i{
+    color: #ffffff;
+}

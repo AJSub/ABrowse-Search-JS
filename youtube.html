@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Channel | Youtube</title>
+    <link rel="stylesheet" href="https://abrowse-search-arviytofficial.netlify.app/index.css">
+    <link rel="shortcut icon" href="https://yt3.ggpht.com/ytc/AMLnZu-XiUO2eTDCnVeY1yswNLcr_IH16GcFRBW1-zUG9Q=s88-c-k-c0x00ffffff-no-rj" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/bc0aa4a446.js" crossorigin="anonymous"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: white;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    transition: all 0.5s ease;
+}
+img.yt-pic{
+    border-radius: 100px;
+    width: 100px;
+    border: 4px solid red;
+}
+.arviyt-subs,.arviyt-views,.arviytvideos,.arviytinfo{
+    font-size: 24px;
+    margin: 0px 5px;
+    color: red;
+    margin-left: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.fa-eye,.fa-play{
+    color: red;
+}
+.subscribe-button{
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+    padding: 4px 8px;
+    text-decoration:  none;
+    user-select: none;
+    font-size: 20px;
+}
+.elfsight-app-79904c2b-ce19-4dc0-b2d5-5ec71a48ed9f span{
+    font-size: 12px;
+}
+.arviyt-videos{
+    box-shadow: 0px 2px 4px rgba(255, 0, 0, 0.8);
+    width: 80%;
+    border-radius: 20px;
+    padding: 10px;
+    padding-top: 15px;
+}
+.yottie-popup-video-content{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+iframe{
+    border-radius: 0px;
+    box-shadow: none;
+}
+.yottie-popup-video-meta-description-more span{
+    color: #11111180;
+    font-weight: 700;
+    font-size: 12px;
+}
+.yottie-popup-video-meta-description-more span:hover{
+    color: rgba(17,17,17,.7);
+    font-weight: 700;
+    font-size: 12px;
+}
+.right-menu{
+    color: #ff0000;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.5);
+    padding: 8px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+.right-menu:active{
+    color: white;
+    background-color: #ff0000;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.8);
+    padding: 8px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+.selection-active{
+    color: white;
+    background-color: #ff0000;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.8);
+    padding: 8px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+.selection-active:active{
+    color: #ff0000;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.5);
+    padding: 8px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+nav{
+    width: 90%;
+}
+.arviytLogo{
+    width: 90%;
+}
+</style>
+</head>
+<body>
+    <br /><br />
+    <center>
+        <nav>
+            <font class="arviytLogo">
+            <a href="https://www.youtube.com/channel/UCSXFcXrNWJ-jSD1fqF2lAlg" target="_blank" rel="noopener noreferrer"><img class="yt-pic" src="https://yt3.ggpht.com/ytc/AMLnZu-XiUO2eTDCnVeY1yswNLcr_IH16GcFRBW1-zUG9Q=s240-c-k-c0x00ffffff-no-rj" alt="yt-pic"></a>
+            <br /><p class="ytChannelName"></p> <a class="subscribe-button" href="https://www.youtube.com/channel/UCSXFcXrNWJ-jSD1fqF2lAlg/?sub_confirmation=1" target="_blank" rel="noopener noreferrer">Subscribe <i class="fas fa-bell"></i></a><br />
+            </font>
+        </nav>
+    </center>
+    <center>
+        <br /><font><span class="arviyt-subs">null</span>Subscribers <a href="https://www.youtube.com/channel/UCSXFcXrNWJ-jSD1fqF2lAlg" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a></font>
+        <br /><font><span class="arviyt-views">null</span>views <i class="fas fa-eye"></i></font>
+        <br /><font><span class="arviytvideos">null</span>videos <i class="fas fa-play"></i></font>
+        <br />
+        <br /><p>Description</p>
+        <font class="arviytinfo"></font>
+        <a href="mailto:arvitungz04@gmail.com">hello arviyt</a>
+        <br /><br /><br /><br />
+    </center>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+<script>
+const APIkey = "AIzaSyCeZCJ3zwXhaorZVY81I1KJKLnZ1OSlHpE";
+const youtubeID = "UCSXFcXrNWJ-jSD1fqF2lAlg";
+
+const arviytsubs = document.querySelector(".arviyt-subs");
+const arviytviews = document.querySelector(".arviyt-views");
+const arviytvideos = document.querySelector(".arviytvideos");
+const arviytinfo = document.querySelector(".arviytinfo");
+const title = document.querySelector("title");
+const ytChannelNameP = document.querySelector(".ytChannelName");
+
+
+setInterval(() => {
+    const getYoutubeSubs = async () => {
+        const getData = await axios.get(
+            'https://www.googleapis.com/youtube/v3/channels?part=statistics&id=UCSXFcXrNWJ-jSD1fqF2lAlg&key=AIzaSyDL2v33GRXspR62QQBn2BZlr8FCLU9g7bg'
+        );
+    
+        const ytSubs = getData.data.items[0].statistics.subscriberCount;
+        const ytVideos = getData.data.items[0].statistics.videoCount;
+        const ytViews = getData.data.items[0].statistics.viewCount;
+    
+        arviytviews.innerHTML = ytViews;
+        arviytvideos.innerHTML = ytVideos;
+        arviytsubs.innerHTML = ytSubs;
+
+        if(arviytsubs.innerHTML <= "10"){
+            arviytsubs.innerHTML = ytSubs + " / 20";
+        }
+        else if(arviytsubs.innerHTML <= "20"){
+            arviytsubs.innerHTML = ytSubs + " / 40";
+        }
+        else if(arviytsubs.innerHTML <= "30"){
+            arviytsubs.innerHTML = ytSubs + " / 60";
+        }
+        else if(arviytsubs.innerHTML <= "40"){
+            arviytsubs.innerHTML = ytSubs + " / 80";
+        }
+        else if(arviytsubs.innerHTML <= "50"){
+            arviytsubs.innerHTML = ytSubs + " / 100";
+        }
+        else if(arviytsubs.innerHTML <= "100"){
+            arviytsubs.innerHTML = ytSubs + " / 200";
+        }
+        else if(arviytsubs.innerHTML <= "200"){
+            arviytsubs.innerHTML = ytSubs + " / 400";
+        }
+        else if(arviytsubs.innerHTML <= "300"){
+            arviytsubs.innerHTML = ytSubs + " / 600";
+        }
+        else if(arviytsubs.innerHTML <= "400"){
+            arviytsubs.innerHTML = ytSubs + " / 800";
+        }
+        else if(arviytsubs.innerHTML <= "500"){
+            arviytsubs.innerHTML = ytSubs + " / 1000";
+        }
+        else if(arviytsubs.innerHTML <= "1000"){
+            arviytsubs.innerHTML = ytSubs + " / 2000";
+        }
+        else if(arviytsubs.innerHTML <= "2000"){
+            arviytsubs.innerHTML = ytSubs + " / 4000";
+        }
+        else if(arviytsubs.innerHTML <= "3000"){
+            arviytsubs.innerHTML = ytSubs + " / 6000";
+        }
+        else if(arviytsubs.innerHTML <= "4000"){
+            arviytsubs.innerHTML = ytSubs + " / 8000";
+        }
+        else if(arviytsubs.innerHTML <= "5000"){
+            arviytsubs.innerHTML = ytSubs + " / 10000";
+        }
+    };
+    
+    const getYoutubeDescription = async () => {
+        const getData = await axios.get(
+            'https://www.googleapis.com/youtube/v3/channels?part=snippet&id=UCSXFcXrNWJ-jSD1fqF2lAlg&key=AIzaSyDL2v33GRXspR62QQBn2BZlr8FCLU9g7bg'
+        );
+    
+        const ytDescription = getData.data.items[0].snippet.description;
+        const ytChannelName = getData.data.items[0].snippet.title;
+    
+        title.innerHTML = ytChannelName + " | Youtube";
+        ytChannelNameP.innerHTML = ytChannelName;
+        arviytinfo.innerHTML = ytDescription;
+    };
+    
+    getYoutubeDescription();
+    getYoutubeSubs();
+}, 1000);
+</script>
+</body>
+</html>
