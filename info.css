@@ -108,28 +108,30 @@ html, body{
 
 
       .progress-line.html span::after{
-        content: "50%";
+        content: "59%";
         transition: 0.5s;
       }
       .bar .progress-line.html span{
-        width: 50%;
+        width: 59%;
         transition: 0.5s;
       }
 
+
       .progress-line.css span::after{
-        content: "30%";
+        content: "33%";
         transition: 0.5s;
       }
       .bar .progress-line.css span{
-        width: 30%;
+        width: 33%;
         transition: 0.5s;
       }
       
+
       .progress-line.js span::after{
-        content: "18%";
+        content: "7%";
         transition: 0.5s;
       }
       .bar .progress-line.js span{
-        width: 18%;
+        width: 7%;
         transition: 0.5s;
       }
