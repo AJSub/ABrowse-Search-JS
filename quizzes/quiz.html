@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="https://abrowse-search-arviytofficial.netlify.app/index.css">
+    <script src="https://kit.fontawesome.com/bc0aa4a446.js" crossorigin="anonymous"></script>
+</head>
+<body link="#007bff" alink="#007bff" vlink="#007bff">
+    <div class="start_btn"><button style="box-shadow: 0 4px 8px rgba(0, 123, 255, 0.5);">Start Quiz</button></div>
+    <div class="info_box">
+        <div class="info-title"><span>Rules of ABrowse Quiz</span></div>
+        <div class="info-list">
+            <font>1. You will have only <span>20 seconds</span> per each questions</font><br />
+            <font>2. Once you select your answer, it can't be undone</font><br />
+            <font>3. You can't select any option when its time up</font><br />
+            <font>4. You can't exit from the Quiz while you're playing</font><br />
+            <font>5. You'll get points on the basis of your correct answer</font><br />
+        </div>
+        <div class="buttons">
+            <button class="quit"><a href="ABrowseQuiz-Entry.html">Exit Quiz</a></button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+    <div class="quiz_box">
+        <header>
+            <div class="title">AQuiz Subject: </div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">20</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+            </div>
+            <div class="option_list">
+            </div>
+        </section>
+        <footer>
+            <div class="total_que">
+            </div>
+            <button class="next_btn">Next Question</button>
+        </footer>
+    </div>
+    <div class="result_box">
+        <div class="icon">🚩</div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+        </div>
+        <div class="buttons">
+            <button class="quit">Quit AQuiz</button>
+        </div>
+    </div>
+    <script src="scriptq.js"></script>
+<script>
+let questions = [
+    {numb: 1,question: "",
+    answer: "",
+    options:[
+      "A.",
+      "B.",
+      "C.",
+      "D.",
+    ]},
+];
+</script>
+</body>
+</html>
+</html>
